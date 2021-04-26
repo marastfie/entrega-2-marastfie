@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Photo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="font-awesome.min.css">
+        <link rel= "stylesheet" href= "/css/style.css"></li>
+        <script src="js/libs/jquery-3.4.1.min.js"></script>
+        <script src="js/libs/popper.min.js"></script>
+        <script src="js/libs/bootstrap.min.js"> </script>
+        <script src="js/utils/include.js"></script>
+  </head>
+  <body>
+    <div id="page-header"></div>
+
+    <div class="container">
+            <div class="d-flex justify-content-center">
+                <div class="row">
+                <a href="photo.html"><img class="photo-img_grande" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAhFBMVEX///8AAADh4eEeHh7k5OQFBQX8/Pz09PQuLi4kJCQZGRn4+PgPDw/q6uo7OzsoKCjExMTKysqgoKBqamrW1tYREREyMjJ/f39RUVEbGxuNjY1ycnKampo/Pz/Q0NBfX1+zs7OcnJy9vb2qqqpnZ2eFhYVMTExFRUWPj4+ysrJcXFxwcHALABMfAAAFZ0lEQVR4nO1baZeyOgyWAmXfUVDEBXF09P//v6sjLcWtBVM977k+X82QNnuTzGj0xRdf/MPAhqchpHkG/gBzB1VZ7puWqlpmmWeV5ryTO0brH8tVGLhWHmvvEgROj5au3EAPivQtR0DH6S33C9QCSWdvzINH7M8wN5JtAS3vCL9jDLUmk3/kP2d/RrmQx7+6Er8+tlXVdq+EYobS+Fssc3s3W0UpQmm02pY2e4JA0gkWzP31yTw12p+Mxd5k5GBK0QJi9G/G3vXPGusepQRLNJbt9Y933T1lPCSB98Y1/bodP/i6MR8TGncDzR9RAaurhwEXb6gxmsAxER/p/VfP6DZUBhlsXkhVov/46YfxnmhKTSH5twI4cqzLOBDKLeQBqAXwVZsS0gDSFYkL6DGfdkZof+H4Oz/NrSY38ecWmtkQL+HMEJEkMBehzhpiC84Tq6b+s4Use9EEAxcuJ5E77Qw+7ckRSNJYQ/HHefPFmRh90pDXUEZArqSvxOg3jR+UQgITgNfY9TgSo48akzEFfEYImtXHBk+xqLFCCyoUoSYRqIJ+Reg/fgBRei4+rgJihO6njNAo+7lhDO2GNBAJpvi6IU/AshEJxWJXoqFYIHcLgiYjoQeHhGRE0/FehLpQgJ2AKUhMgW/KKEioXesCFclWQkk20milyY1FKVEXaFGKiV6VJccRJJXlzMNk/vxhQhSgWKAPE0YE42fPThyP5Qjg5InEthV78/hx2vKfgDfsYtoZHe8fPc+37fMc0gUucEiEP9nB4a5+00PboCgktAu1kn5eCWa3LZot08LaQSXiDhZmy0E3s0WnSVUETJNqAusBFGGnTWj7yebSpotrv9OmMwULlwEnMJUOdPdeo3Iijf9JCzuFix9J8r9AS9zn7N1Civ21cDbmM/6TX/mjG5Spj9hbM6m9egKcboN7Ixtz9p6RzfkI6PdwPbRa/r5taPUHB4XrumzGdkkcvnds1+Cjg8svvvjf4+SBZxck0Lw3+qKjReskLyfBKQgRWMGkzOt5JD0cYS8sdtZ1BUKzgWvtitCTJwqjqk1OOXDKCmYSQrVmOsDa3udyb87gz+HTMsrupeBH0M0t7BG8WR/2lyPs4WozvPJ7sv87QlkBmaOWjO983rWnrRtOb2rzM8YgBSqurq+vq2URV+c3SYs0quLCV68p/dcbZc6+8+hR3ElWoftRDxuoyq78VH006BaFUXQuNU2q53EGe1Xd2fJxs5eCgndg+VtbkbLXSbedVY/6BUPwcoa/nSFBq8ZpxuhNPww+gZczn8mjHk6Fox/m6ENPYDDyn857qtJgjFevB9mBw9if3+f6F+Bw0p4gG+ILe+pQ+mFQywu1GnQHdO4r6k36caAOvZrKUO0dkTS6NaQXgz3ZSOgJ+m4WOUl7/xciidH29noutaxo/hnuxWe0njyuev0dVYD/YssVUV/o1Tuc0WWcl9NZReKByP4JAV2aEZmQcIDpZXosV5ExnZID1LcGae3pQiOvM+iAxgZpOYZECSIjrz/QdSyYfTBMXFrUCujkE2rqQudYYkswdE4KNnWh8x6xWSom0WsK1vRNSV7JRKjJtgDg8Nsh8VBkFWwUNhpwe8XO51i5PXRAFAa2/zBipCoQCmjcENKXIDBZyf3hl0ZkY0UH1EC7XCUw0icbKHA+cAbxA4E9mHlzVh+0zUHX0fgDTRIFjpD8eyzkUUq4DZQ/kATLXfGjO0OxhgChzUV3izxSQtkqKEhK5sZC7+n/sLyOgHcAzeJ/5BVwAwF6OJODAXfFT5OtAp4EnJz/kVew5CaDSKoIAoFttOhg8b1qGKyl0DacAxqCOuHoE9PNL774gof/AJhSSY0ultHPAAAAAElFTkSuQmCC">
+                  </a>
+                <h4 class="nombrepagppal">ManolitoMartinez</h4>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="row">
+                    <a id="button" class="btngrande btn-success" href="pagppal.html" role="button">editar foto</a>
+                    <a id="button" class="btngrande btn-danger" href="pagppal.html" role="button">eliminar foto</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+            
+                </div>
+                <div class="col-md">
+                    <div class="d-flex justify-content-center">
+                         <a href="fotogrande.html"><img class="photo-img_paggrande" src="https://i.pinimg.com/originals/25/f2/18/25f218a7913bd8d7a120ef515e3d6a60.jpg">
+                      </a>
+                    </div>
+                </div>
+                <div class="col-md">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md">
+                </div>
+                <div class="col-md">
+                    <a id="likes" class="btn btn-success" href="pagppal.html" role="button">Like</a>
+                </div>
+                <div class="col-md">
+                    <h3 class="megustas">789♥</h3>
+                </div>
+                <div class="col-md">
+                    <h3 class="flora">#Girasol</h3>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <div class="row">
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Añade tu comentario" aria-label="Añade tu comentario" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <span class="input-group-text" id="basic-addon2">Comentar</span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="row">
+                <h9 class="comentarios">jaimehuertas: Que foto mas bonita!!!</h9>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="row">
+                <h9 class="comentarios">Iker8989: increible colega ♥♥♥♥♥♥♥</h9>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="row">
+                <h9 class="comentarios">francis99: que pedazo de girasol!!</h9>
+              </div>
+            </div>
+
+            
+    </div>
+
+    <script>
+      include("navbar.html","#page-header");
+  </script>
+
+  </body>
+</html>

@@ -1,0 +1,75 @@
+.container{
+    margin-top: 30px;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.tittle{
+    margin-bottom: 30px;
+}
+.row{
+    margin-bottom: 20px;
+}
+.namp{
+    margin-bottom: -40px;
+}
+.nump{
+    margin-top: 60px;
+}
+.nump{
+    margin-bottom: -10px;
+}
+.emailp{
+    margin-top: -10px;
+}
+.btnperfil{
+    margin-top: 20px;
+}
+.photo-img1{
+    margin-top: -90px;
+}
+.photo-img{
+    width:98%;
+    height: auto;
+}
+.photo-img{
+    margin-top: 50px;
+}
+.photo-img_pagppal{
+    width:40%;
+    height: auto;
+}
+.photo-img_icono{
+    width:10%;
+    height: auto;
+}
+.photo-img_icono{
+    margin-bottom: -70px;
+}
+.nombrepagppal{
+    float:center;
+    margin-top: 50px;
+}
+.photo-img_grande{
+    width:70%;
+    height: auto;
+}
+.btngrande{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.photo-img_paggrande{
+    width:200%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: -150px;
+
+}
+.photo-img_categoria{
+    width:40%;
+    height: auto;
+}
+.nombreindex{
+    margin-top: 150px;
+    margin-bottom: -130px;
+}
